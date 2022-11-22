@@ -105,12 +105,12 @@ script's output file by editing the `BASH_OUTFILE` variable in the bash script.
 ### Running More (or Less) than 3 Chains
 
 Be mindful of Oscar's potential limit on the number of cores requested and any limitation
-on lab resources (see [this section](#Can-I-just-request-more-cores-to-speed-things-up?)).
+on lab resources (see [this section](#Can-I-just-request-more-cores-to-speed-things-up)).
 
 With this in mind, if you want to run more or less than 3 chains in parallel, 2 changes 
 will need to be made to ensure that the number of cores requested to Oscar matches up with 
 the number of chains run per model 
-([and to prevent unexpected runtime slowdown](#Can-I-just-request-more-cores-to-speed-things-up?)):
+([and to prevent unexpected runtime slowdown](#Can-I-just-request-more-cores-to-speed-things-up)):
 * In `run_model_example.sh`, edit the `#SBATCH -c 3` line to have the desired number
  of chains. For example, if you wanted to run 5 chains, edit the line to be `#SBATCH -c 5`
 * In `run_model_example.py`, edit the `num_chains` variable in the `MODEL SPECIFICATION`
@@ -213,7 +213,7 @@ your model once without using this script. You could also [contact us](#Contact)
 if you are having issues with the script that aren't present when fitting the 
 model without the script.
 
-#### I have a another question/concern/thought/complaint!
+#### I have a different question/concern/thought/complaint!
 
 See the [Contact section](#Contact).
 
