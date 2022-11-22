@@ -31,10 +31,11 @@ pd.options.display.max_columns = None
 
 
 # **** MODEL SPECIFICATION ****
+datafilepath = 'example.csv' # Data that the model is fit to
+model_name = 'exampleModel'  # Used in file names
+model = 'angle'              # Used in call to HDDM
+
 # Set the following variables for your model of interest 
-datafilepath = 'example.csv'	# Data that the model is fit to
-model_name = 'exampleModel'		# Used in file names
-model = 'angle'					# Used in call to HDDM
 nmcmc = 0
 burn_in = 0
 Group_only = False
@@ -85,7 +86,6 @@ model_info = dict(
     Group_only=Group_only,
     n_samples=n_samples,
     p_outlier=p_outlier,
-    includes=includes,
     model_def=model_def
 )
 
