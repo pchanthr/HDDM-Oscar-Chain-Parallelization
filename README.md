@@ -1,6 +1,8 @@
 ## Purpose
 
-This script will send a job Oscar to run 3 chains of your model using 
+This script will send a job Oscar 
+([Brown's high performance computing cluster](https://docs.ccv.brown.edu/oscar/)) 
+to run 3 chains of your model using 
 parallel processing, which should lead to a speedup proportional to the 
 number of chains you are running. Namely, if running 3 chains sequentially 
 takes 3 hours, running this script instead will take 1 hour.
@@ -222,4 +224,4 @@ See the [Contact section](#Contact).
 
 Contact us with any questions/concerns/thoughts/complaints via 
 [this form](https://docs.google.com/forms/d/e/1FAIpQLScJPuLQS4sRWiLShrhTDgYo_ijISAFJTwv5oVO2vTklniZDkQ/viewform) 
-or email pranavan_chanthrakumar@brown.edu.
+or email pranavan_chanthrakumar@brown.edu or nadja@gingjehli.com.
