@@ -15,6 +15,9 @@ Additionally, this script does the following:
 * Create and save PPC data compared with original data (via a call to 
 HDDM `post_pred_stats`)
 
+Contact us with any questions/concerns/thoughts/complaints via 
+[this form](https://docs.google.com/forms/d/e/1FAIpQLScJPuLQS4sRWiLShrhTDgYo_ijISAFJTwv5oVO2vTklniZDkQ/viewform) 
+or email pranavan_chanthrakumar@brown.edu or nadja@gingjehli.com.
 
 ## Requirements
 
